@@ -764,7 +764,7 @@ ul.task-list li input[type="checkbox"] {
 <p>The following figure provides a conceptual illustration of the whole data analysis workflow.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="../../media/analysis-workflow.png" class="lightbox" title="Data analysis workflow" data-gallery="quarto-lightbox-gallery-1"><img src="../../media/analysis-workflow.png" class="img-fluid figure-img" style="width:60.0%" alt="Double sided arrow points between Question and Data with the text 'Match needed' above the arrow. A spiral moves from Load, to Clean, to Explore, to Process. Below the spiral an arrow points from Model to Report. An rounded arrow points from Model and Report back up to the spiral with the word Repeat."></a></p>
+<p><a href="../../media/analysis-workflow.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Data analysis workflow"><img src="../../media/analysis-workflow.png" class="img-fluid figure-img" style="width:60.0%" alt="Double sided arrow points between Question and Data with the text 'Match needed' above the arrow. A spiral moves from Load, to Clean, to Explore, to Process. Below the spiral an arrow points from Model to Report. An rounded arrow points from Model and Report back up to the spiral with the word Repeat."></a></p>
 <figcaption class="figure-caption">Data analysis workflow</figcaption>
 </figure>
 </div>
@@ -847,7 +847,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="sec-some-practice" class="level1">
 <h1>Some practice</h1>
-<p>There is code shown in chapter 4 of ADS. If you want, you can try to work along and reproduce what they are showing. This is optional. If you want to try and work along, note that the link provided in the book to download the data does not work anymore (not easily reproducible!). I did find the <a href="https://aqs.epa.gov/aqsweb/airdata/download_files.html">data</a>, which you can download as a <a href="../../media/hourly_44201_2014.zip">zip folder</a>. Download and unzip and you should be good to work along.</p>
+<p>There is code shown in chapter 4 of ADS. If you want, you can try to work along and reproduce what they are showing. This is optional. If you want to try and work along, note that the link provided in the book to download the data does not work anymore (not easily reproducible!). I did find the <a href="https://aqs.epa.gov/aqsweb/airdata/download_files.html">data</a>, which you can download as a <a href="../../data/hourly_44201_2014.zip">zip folder</a>. Download and unzip and you should be good to work along.</p>
 <p>If you code along, I suggest you start a new R script and place their code into that script (instead of copying it into the console). We’ll talk about that more soon. You will need to slightly adjust the code shown in the book to make it work. E.g., if you don’t place the data into a <code>data</code> folder, you will need to change the path in the <code>read_csv</code> command. Also, for that command and some others, the book has a formatting with <code>+</code> signs across multiple lines of code, that might not work if you just copy and paste their code, and you might need to remove them and move everything into a single line of code. You can write everything into a single line and delete all <code>+</code> signs.</p>
 <p>You will also notice that the data is different than what they report. Their book was published on 2018-06-22, but on the website where the data comes from, a time stamp of 2019-05-07 is listed. Thus the data got updated after the book was published, again making things not quite reproducible. (Changes to data are common, which is a reason why an automated and reproducible workflow is so important!)</p>
 <p>Finally, there are minor errors/typos in the book, e.g., what the code does and what the text says are not the same when looking at time (page 41).</p>
@@ -1117,7 +1117,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   </div>
 </nav>
 </div> <!-- /content -->
-<script>var lightboxQuarto = GLightbox({"selector":".lightbox","closeEffect":"zoom","openEffect":"zoom","descPosition":"right","loop":false});</script>
+<script>var lightboxQuarto = GLightbox({"selector":".lightbox","openEffect":"zoom","loop":false,"closeEffect":"zoom","descPosition":"right"});</script>
 
 
 
